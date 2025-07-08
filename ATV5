@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro n1 , n2
+		escreva("Me informe um número: ")
+		leia(n1)
+
+		escreva("Informe um segundo número: ")
+		leia(n2)
+
+		se(n1 > n2){
+			escreva(n1, " é o maior número")
+		}
+		senao{
+			escreva(n2, " é o maior número")
+		}
+	}
+}
