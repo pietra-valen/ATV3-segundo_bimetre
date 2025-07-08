@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real km 
+		inteiro dias
+		inteiro valor_dias
+		real valor_km , valor_total
+	
+		escreva("Quantos km você percorreu com o carro? ")
+		leia(km)
+
+		escreva("Por quantos dias o carro foi alugado? ")
+		leia(dias)
+
+		valor_km = km * 0.15
+		valor_dias = dias * 60
+		valor_total = valor_km + valor_dias
+
+		escreva("Total preço a pagar: R$ " , valor_total)
+	}
+}
